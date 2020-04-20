@@ -1,0 +1,325 @@
+
+body{
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    /* background: #211f20; */
+    /* color: aliceblue; */
+    color:#211f20;
+    background: #f1f1f1;
+
+
+
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', sans-serif;
+    font-size: 14px;
+
+}
+
+
+header {
+    background: url('/img/banner_bg.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-width: 100%; 
+
+}
+
+.subtitulo {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    font-family: 'Snippet', sans-serif;
+
+}
+
+.subtitulo:after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #afbe5f;
+    margin: 7px auto;
+}
+
+.h-quote {
+    font-size: 1.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Snippet', sans-serif;
+}
+
+.h-quote:after {
+    content: '';
+    display: block;
+    width: 75px;
+    height: 3px;
+    background: #f1f1f1;
+    margin: 7px auto;
+}
+
+.subtitulo p {
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    
+}
+
+
+
+.navbar {
+    padding: 0;
+    margin:0;
+    background: transparent;
+}
+
+ .home, .produtos, .galeria, .funcao {
+    color: #afbe5f; 
+  }
+
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+    font-family: 'Snippet', sans-serif;
+    margin-left: 30px;
+    
+    
+}
+
+
+.home:hover, .produtos:hover, .galeria:hover, .funcao:hover {
+    color: #afbe5f; 
+    opacity: 0.5;
+  }
+
+  
+/* .banner {
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+
+
+} */
+
+.banner h2, .banner p {
+    color: #fff;
+}
+
+.banner h2 {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Snippet', sans-serif;
+   
+}
+
+.banner p {
+    font-size: 0.875em;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.prod-text h3 {
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.prod-text p {
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-align: center;
+    
+}
+
+.prod-text a {
+    align-items: center;
+}
+
+.btn{
+    background: #afbe5f;
+    color: aliceblue;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    color: #afbe5f;
+    font-weight: bold;
+    background: transparent;
+    opacity: 0.7;
+    border: 1px solid #afbe5f;
+  
+
+}
+
+
+/* OW CAROUSEL*/
+.clients-quote {
+    background: #afbe5f;
+  
+}
+
+
+.single-testimonial {
+    color: #afbe5f;
+    padding-left: 75px;
+    margin: 0 15px 15px;
+
+
+}
+
+
+.test-text {
+    background: #f1f1f1;
+    padding: 50px;
+    box-shadow: 10px 10px 5px #211f20;
+    border-radius: 10px;
+}
+
+
+
+.test-text h4 {
+    font-size: 1.25em;
+    margin-bottom: 30px;
+
+
+}
+
+
+.single-testimonial:hover .test-text{
+    opacity: 0.5;
+    color: #211f20;
+
+}
+
+/* FOOTER */
+
+.contact-us li {
+    list-style: none;
+    text-align: justify;
+    font-size: 0.875em;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.contact-us {
+
+    padding: 0;
+    
+}
+
+footer {
+    background: #211f20;
+    color: #f1f1f1;
+}
+
+.sub-footer {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+.sub-footer:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #afbe5f;
+    
+}
+
+img.payment {
+    width: 250px
+    
+}
+
+.social-m img {
+    width: 40px;
+    height: 40px;
+}
+
+.end {
+    border-top: #afbe5f solid 3px;
+    color: #f1f1f1;
+}
+
+.end p {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.email {
+    width: 300px;
+    background: none;
+    padding: 10px;
+    border: #afbe5f solid 3px;
+    color: #f1f1f1;
+}
+
+.newslettet-sub {
+    font-size: 1.25em;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+
+button:hover {
+    color: #afbe5f;
+    font-weight: bold;
+    background: transparent;
+    border: 1px solid #afbe5f;
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    .banner h2 {
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Snippet', sans-serif;
+       
+    }
+
+    .prod-text h3 {
+        text-transform: uppercase;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 0.875em;
+    }
+
+    
+.h-quote {
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Snippet', sans-serif;
+}
+
+.owl-item {
+    width: 300px;
+
+}
+
+}
